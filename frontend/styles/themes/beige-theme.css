@@ -1,0 +1,68 @@
+.theme-beige {
+  /* Hex reference
+  --bg-main: #f5f1e8;
+  --bg-section: #efe8dc;
+  --bg-soft: #f8f5ef;
+  --border: #e4dccf;
+  --green-dark: #1f3d2b;
+  --green-primary: #2f5d3a;
+  --green-medium: #4c7a4f;
+  --green-light: #a9c3a2;
+  --green-soft: #edf5ec;
+  --danger: #dc2626;
+  --text-primary: #1f2937;
+  --text-muted: #6b7280;
+  */
+
+  --bg-main: 45 33% 94%; /* #f5f1e8 */
+  --bg-section: 39 25% 90%; /* #efe8dc */
+  --bg-soft: 40 33% 95%; /* #f8f5ef */
+  --border-fixed: 37 26% 85%; /* #e4dccf */
+  
+  --green-dark: 145 33% 18%; /* #1f3d2b */
+  --green-primary: 134 33% 27%; /* #2f5d3a */
+  --green-medium: 124 23% 39%; /* #4c7a4f */
+  --green-light: 108 23% 70%; /* #a9c3a2 */
+  --green-soft: 112 30% 94%; /* #edf5ec */
+  
+  --danger: 0 72% 51%; /* #dc2626 */
+  --text-primary: 215 16% 17%; /* #1f2937 */
+  --text-muted: 215 14% 46%; /* #6b7280 */
+  
+  /* shadcn UI variables mapping (using spaces for HSL) */
+  --background: var(--bg-main);
+  --foreground: var(--text-primary);
+  
+  --card: 0 0% 100%;
+  --card-foreground: var(--text-primary);
+  
+  --popover: 0 0% 100%;
+  --popover-foreground: var(--text-primary);
+  
+  --primary: var(--green-primary);
+  --primary-foreground: 0 0% 100%;
+  
+  --secondary: var(--bg-section);
+  --secondary-foreground: var(--text-primary);
+  
+  --muted: var(--bg-soft);
+  --muted-foreground: var(--text-muted);
+  
+  --accent: var(--green-soft);
+  --accent-foreground: var(--green-primary);
+  
+  --destructive: var(--danger);
+  --destructive-foreground: 0 0% 100%;
+  
+  --border: var(--border-fixed);
+  --input: var(--border-fixed);
+  --ring: var(--green-primary);
+  
+  --radius: 0.75rem; /* rounded-xl */
+}
+
+.theme-beige {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: 'Poppins', sans-serif;
+}
