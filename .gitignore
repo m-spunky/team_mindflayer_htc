@@ -1,0 +1,3 @@
+backend/data/gmail_token.json
+backend/chat/__pycache__/
+*.pyc
